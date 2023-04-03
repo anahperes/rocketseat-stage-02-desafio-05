@@ -1,0 +1,112 @@
+/* BODY SET UP */
+body {
+    font-family: 'JetBrains Mono', monospace;
+    background-color: #2F2E41;
+    margin: 0;
+}
+
+/* HEADER */
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: center;
+    margin: 0px auto 60px;
+}
+
+/* ALL SPANS (H1 + P) */
+span {
+    color: #00BFA6;
+}
+
+/* MAIN PARAGRAPH */
+main p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: regular;
+    line-height: 28px;
+    color: #C2C2C2;
+    text-align: center;
+    width: 600px;
+}
+
+/* SPAN ON MAIN PARAGRAPH */
+p span {
+    font-weight: bold;
+    color: #00BFA6;
+}
+
+/* LINE BEFORE FOOTER */
+#line {
+    width: 568px;
+    border: 1px solid #00BFA6;
+    margin: 155px auto 25px;
+}
+
+/* FOOTER */
+footer {
+    font-size: 14px;
+
+    color: #FFFFFF;
+    text-align: center;
+}
+
+/* FOOTER LINK */
+footer p a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+/* NAV */
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 70px auto 100px;
+}
+
+/* NAV LIST */
+ul {
+    display: flex;
+    gap: 64px;
+    font-size: 14px;
+    font-weight: medium;
+    color: #FFFFFF;
+    list-style: none;
+}
+
+/* NAV LINKS */
+li a {
+    color: #FFFFFF;
+    text-decoration: none;
+
+}
+
+/* NAV LINKS ON HOVER */
+li a:hover {
+    color: #a0a0a0;
+    font-weight: bold;
+
+}
+
+/* PAGE = NAV + MAIN */
+.page {
+    width: 1090px;
+    margin: auto;
+
+}
+
+/* MAIN */
+main {
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+    gap: 75px;
+    margin: 100px auto 155px;
+}
+
+/* PADLOCK */
+#cadeado {
+    position: fixed;
+    left: 20px;
+    bottom: 20px;
+}
